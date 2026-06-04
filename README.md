@@ -1,46 +1,91 @@
-# Astro Starter Kit: Basics
+# 🍩 Simpsons Explorer
 
-```sh
-pnpm create astro@latest -- --template basics
+![Astro](https://img.shields.io/badge/Astro-5.x-BC52EE?logo=astro)
+![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?logo=typescript)
+![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-orange)
+![License](https://img.shields.io/badge/Licencia-MIT-green)
+
+Aplicación web desarrollada con Astro para explorar personajes del universo de Los Simpson mediante el consumo de una API pública.
+
+## 📖 Descripción
+
+Simpsons Explorer es un proyecto creado con el objetivo de fortalecer conocimientos en desarrollo Frontend moderno utilizando Astro, consumo de APIs REST, diseño responsive y buenas prácticas de desarrollo.
+
+La aplicación permitirá consultar información de personajes, visualizar detalles individuales y ofrecer una experiencia de navegación intuitiva y rápida.
+
+## 🚀 Tecnologías
+
+- Astro
+- TypeScript
+- HTML5
+- CSS3
+- Git
+- GitHub
+- API REST
+
+## 🎯 Objetivos de aprendizaje
+
+- Consumo de APIs REST.
+- Componentización con Astro.
+- Manejo de rutas dinámicas.
+- Responsive Design.
+- Buenas prácticas de Git.
+- Organización de proyectos Frontend.
+
+## 🗺️ Roadmap
+
+### Versión 1.0
+
+- [ ] Página de inicio.
+- [ ] Listado de personajes.
+- [ ] Consumo de API.
+- [ ] Diseño responsive.
+
+### Versión 2.0
+
+- [ ] Búsqueda de personajes.
+- [ ] Estados de carga.
+- [ ] Manejo de errores.
+
+### Versión 3.0
+
+- [ ] Página de detalle.
+- [ ] Rutas dinámicas.
+- [ ] Optimización SEO.
+
+### Versión 4.0
+
+- [ ] Sistema de favoritos.
+- [ ] Persistencia en Local Storage.
+- [ ] Tema oscuro.
+
+## ⚙️ Instalación
+
+```bash
+git clone https://github.com/Stirod08/simpsons-explorer.git
+
+cd AstroSpringfield
+
+npm install
+
+npm run dev
+
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+##📂 Estructura del proyecto
 
-## 🚀 Project Structure
+src/
+├── components/
+├── layouts/
+├── pages/
+├── services/
+├── styles/
+└── types/
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📌 Estado del proyecto
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+🚧 En desarrollo.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 👨‍💻 Autor
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Desarrollado por Stirod como proyecto de práctica y portafolio utilizando Astro.
