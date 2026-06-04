@@ -1,9 +1,9 @@
 # 🍩 Simpsons Explorer
 
-![Astro](https://img.shields.io/badge/Astro-5.x-BC52EE?logo=astro)
+![Astro](https://img.shields.io/badge/Astro-6.4.4-BC52EE?logo=astro)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?logo=typescript)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white)
 ![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-orange)
-![License](https://img.shields.io/badge/Licencia-MIT-green)
 
 Aplicación web desarrollada con Astro para explorar personajes del universo de Los Simpson mediante el consumo de una API pública.
 
@@ -64,15 +64,15 @@ La aplicación permitirá consultar información de personajes, visualizar detal
 ```bash
 git clone https://github.com/Stirod08/simpsons-explorer.git
 
-cd AstroSpringfield
+cd simpsons-explorer
 
-npm install
+pnpm install
 
-npm run dev
+pnpm run dev
 
 ```
 
-##📂 Estructura del proyecto
+## 📂 Estructura del proyecto
 
 src/
 ├── components/
